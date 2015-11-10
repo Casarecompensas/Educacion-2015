@@ -3,6 +3,20 @@
  * @package   theme_educacionbe
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
 /**/
+.cursos-word {
+    background:#00188F !important;
+    color: #fff;
+    padding: 0 1em;
+    display: box;
+    display: flex;
+}
+.cursos-excel{
+    background: #1E7145;
+    color: #fff;
+    padding: 0 1em;
+    display: box;
+    display: flex;
+}
 .path-site li.activity>div, .path-course-view li.activity>div {
     padding: 0 0px 0 0;
 }
@@ -29,8 +43,7 @@
     padding-right: 0px;
 }
 .navbar .container {
-    /* width: auto; */
-    width: 1140px;
+    width: auto;
 }
 #header .header-top {
     min-height: 34px;
@@ -515,7 +528,7 @@ body {
 		/*font-size: 14px;*/
     		/*font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;*/
     		/*font-weight: bold;*/
-		font-family: 'Roboto Slab', serif;
+		font-family: 'Open Sans',sans-serif;
 		color: #656565;
 		padding-top: 0;
 		background: #007234;
